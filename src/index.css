@@ -21,6 +21,25 @@ code {
   background-color: #0d0d57;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background: lightgrey;
+  height: 55px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  padding-right: 24px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul li {
+  margin-left: 24px;;
+}
+
 .gallery {
   padding-top: 20px;
   width:95vw;
