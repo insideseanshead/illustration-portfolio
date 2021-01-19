@@ -28,14 +28,20 @@ const Header = () => {
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-start">
       <a className="navbar-item">
-        Home
+        Illustrations
       </a>
 
       <a className="navbar-item">
-        Documentation
+        Contact
       </a>
 
-      
+      <a className="navbar-item">
+        Twitter
+      </a>
+
+      <a className="navbar-item">
+        Instagram
+      </a>
     </div>
 
     
