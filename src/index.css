@@ -30,7 +30,8 @@ code {
 
 .page_content{
   width:95vw;
-  margin:auto
+  margin:auto;
+  padding-bottom: 20px;;
 }
 
 /* Gallery CSS */
@@ -56,5 +57,8 @@ code {
   transform: scale(1.08);
 }
 
-
+footer {
+  color: white;
+  background: black;
+}
 
