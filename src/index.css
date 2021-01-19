@@ -21,7 +21,8 @@ code {
   background-color: #0d0d57;
 }
 
-nav {
+/* NavBar */
+/* nav {
   display: flex;
   justify-content: flex-end;
   background: lightgrey;
@@ -38,7 +39,16 @@ nav ul {
 
 nav ul li {
   margin-left: 24px;;
+} */
+
+/* trying to set up sticky navbar */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
 }
+
 
 .gallery {
   padding-top: 20px;
@@ -48,6 +58,7 @@ nav ul li {
   flex-wrap: wrap;
   /* justify-content: space-between; */
   align-content: flex-start;
+  z-index: -1
 }
 
 .content{
