@@ -79,7 +79,7 @@ const Gallery = () => {
     
     return (
         <>
-            {images.map((image)=>(<img src={image.image} alt={image.alt} />))}
+            {images.map((image)=>(<div className="thumbnail"><img className='img_src' src={image.image} alt={image.alt} /></div>))}
         </>
     )
 }
