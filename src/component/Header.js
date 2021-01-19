@@ -1,5 +1,4 @@
 import "react-bulma-components/dist/react-bulma-components.min.css";
-import { Hero, Navbar } from "react-bulma-components";
 import Nav from "./Nav"
 
 const Header = () => {

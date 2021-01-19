@@ -21,27 +21,6 @@ code {
   background-color: #0d0d57;
 }
 
-/* NavBar */
-/* nav {
-  display: flex;
-  justify-content: flex-end;
-  background: lightgrey;
-  height: 55px;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  padding-right: 24px;
-  position: sticky;
-  top: 0;
-}
-
-nav ul li {
-  margin-left: 24px;;
-} */
-
-/* trying to set up sticky navbar */
 .sticky {
   position: fixed;
   top: 0;
@@ -49,24 +28,33 @@ nav ul li {
   z-index: 5;
 }
 
-
-.gallery {
-  padding-top: 20px;
+.page_content{
   width:95vw;
-  margin:auto;
+  margin:auto
+}
+
+/* Gallery CSS */
+.gallery {
+  padding: 20px 0;
+  /* width:95vw; */
+  /* margin:auto; */
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   align-content: flex-start;
+  border-bottom: gray 2px solid;
+  margin-bottom: 20px;
   z-index: -1
 }
 
 .content{
   height: 40vh;
-  padding-right: 2%;
+  padding-right: .5rem;
   transition: transform .2s;
 }
 
 .content:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
+
+
+
