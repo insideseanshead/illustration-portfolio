@@ -12,8 +12,17 @@ code {
     monospace;
 }
 
+.hero-img {
+  background-image: url(./images/hero.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #0d0d57;
+}
+
 .gallery {
-  padding-top: 20px;;
+  padding-top: 20px;
   width:95vw;
   margin:auto;
   display: flex;

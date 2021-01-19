@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <section className="hero is-success is-fullheight-with-navbar">
-        <div className="hero-body">
+        <div className="hero-body hero-img">
           <div className="container">
             <h1 className="title">Sean Morgan</h1>
             <h2 className="subtitle">Illustration</h2>
