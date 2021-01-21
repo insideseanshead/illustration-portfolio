@@ -26,16 +26,8 @@ const Nav = () => {
 
   return (
     <div className={navbarClasses.join(" ")}>
-      <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
-            <img
-              src="https://bulma.io/images/bulma-logo.png"
-              width="112"
-              height="28"
-            />
-          </a>
-
           <a
             role="button"
             className="navbar-burger"
@@ -50,10 +42,10 @@ const Nav = () => {
         </div>
 
         <div id="navbarBasicExample" className="navbar-menu is-fixed-top">
-          <div className="navbar-start">
-            <a className="navbar-item">Illustrations</a>
+          <div className="navbar-end">
+            <a className="navbar-item" href='#gallery'>Illustrations</a>
 
-            <a className="navbar-item">Contact</a>
+            <a className="navbar-item" href='#contact'>Contact</a>
 
             <a className="navbar-item">Twitter</a>
 
