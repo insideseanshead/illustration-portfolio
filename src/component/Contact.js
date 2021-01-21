@@ -8,7 +8,7 @@ const Contact = () => {
         <img className="portrait" src="https://www.placecage.com/g/400/500" />
       </div>
       <div className="info column is-5">
-        <h3>Sean Morgan</h3>
+        <h1 className="title is-4">Sean Morgan</h1>
         <hr />
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -23,8 +23,8 @@ const Contact = () => {
       <div className="column is-4">
         <form className="contact-form">
           <ul>
-              <li>(415) 378-1824</li>
-              <li>seanmorgandesigns@gmail.com</li>
+              <li className="subtitle is-5">(415) 378-1824</li>
+              <li className="subtitle is-5">seanmorgandesigns@gmail.com</li>
           </ul>
           <h3>Form goes here</h3>
         </form>
