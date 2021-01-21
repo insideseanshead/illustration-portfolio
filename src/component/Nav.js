@@ -1,31 +1,11 @@
 import React, { useEffect } from "react";
 
 const Nav = () => {
-
-// sticky navbar
-  const [sticky, setSticky] = React.useState(false);
-
-  const handleScroll = () => {
-    const offset = window.scrollY;
-    if (offset > 900) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  });
-
-  let navbarClasses = ["nav"];
-
-  if (sticky) {
-    navbarClasses.push("sticky");
-  }
-
   return (
-    <div className={navbarClasses.join(" ")}>
+    <div 
+    // className={navbarClasses.join(" ")}
+    id="sticky"
+    >
       <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a

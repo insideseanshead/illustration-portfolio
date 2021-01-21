@@ -37,11 +37,18 @@ code {
   font-weight: 200;
 }
 
+#sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 5;
+}
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 5;
+  
 }
 
 .page_content{
