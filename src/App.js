@@ -3,6 +3,7 @@ import Gallery from "./component/Gallery";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import { useState } from 'react'
+import Lightbox from "./component/Lightbox";
 
 function App() {
   const [images, setImages] = useState([
@@ -87,7 +88,8 @@ function App() {
     <div className="App">
       <Header />
       <div className="page_content">
-        <Gallery images={images}/>
+        {/* <Gallery images={images}/> */}
+        <Lightbox images={images}/>
         <Contact />
       </div>
       <Footer />
