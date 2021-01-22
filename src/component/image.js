@@ -1,8 +1,4 @@
 import React from "react";
-import Lightbox from "react-lightbox-component";
-
-
-  
 
 
 const Image = ({ image }) => {
