@@ -13,10 +13,10 @@ function App() {
           const result = await axios(
               `//res.cloudinary.com/seanmorgandesigns/image/list/illustration.json`
           );
-
+            
           console.log(result.data)
-          setImages(result.data.stringify);
-          console.log(images)
+          setImages(result.data.resources);
+          return(result)
       };
 
       fetchImages()
