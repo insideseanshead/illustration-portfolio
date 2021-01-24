@@ -27,9 +27,9 @@ const Nav = () => {
 
             <a className="navbar-item" href='#contact'>Contact</a>
 
-            <a className="navbar-item">Twitter</a>
+            <a className="navbar-item" href='https://twitter.com/SeanMorganArt' target="_blank" >Twitter</a>
 
-            <a className="navbar-item">Instagram</a>
+            {/* <a className="navbar-item">Instagram</a> */}
           </div>
         </div>
       </nav>

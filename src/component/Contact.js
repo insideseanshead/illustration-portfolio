@@ -1,11 +1,12 @@
 import React from "react";
 import "react-bulma-components/dist/react-bulma-components.min.css";
+import profile from '../images/profile.jpg'
 
 const Contact = () => {
   return (
     <div className="contact columns" id="contact">
       <div className="column is-3">
-        <img className="portrait" src="https://www.placecage.com/g/400/500" />
+        <img className="portrait" src={profile} />
       </div>
       <div className="info column is-5">
         <h2 className="title is-4">Sean Morgan</h2>
@@ -30,7 +31,7 @@ const Contact = () => {
             <li className="subtitle is-5">(415) 378-1824</li>
             <li className="subtitle is-5">seanmorgandesigns@gmail.com</li>
           </ul>
-          <h3>Form goes here</h3>
+          {/* <h3>Form goes here</h3> */}
         </form>
       </div>
     </div>

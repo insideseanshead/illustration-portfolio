@@ -7,7 +7,7 @@ const Image = ({ image }) => {
 
   return (
     <div className="thumbnail">
-      <img className="content" src={`https://res.cloudinary.com/seanmorgandesigns/image/upload/${image.public_id}`} alt={image.public_id} />
+      <img className="content" src={`https://res.cloudinary.com/seanmorgandesigns/image/upload/${image.public_id}`} alt={image.context.custom.alt} />
     </div>
   );
 };
