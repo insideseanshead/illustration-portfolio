@@ -5,10 +5,10 @@ import Image from "./Image";
 const Lightbox = ({ images }) => {
   return (
     <SRLWrapper>
-        <div className="gallery" id="gallery">
-      {images.map((image) => (
-        <Image key={image.id} image={image} />
-      ))}
+      <div className="gallery" id="gallery"> 
+        {images.map((image) => (
+          <Image key={image.public_id} image={image} />
+        ))}
       </div>
     </SRLWrapper>
   );
