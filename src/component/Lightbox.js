@@ -7,7 +7,7 @@ const Lightbox = ({ images }) => {
     <SRLWrapper>
         <div className="gallery" id="gallery">
       {images.map((image) => (
-        <Image key={image.id} image={image} />
+        <Image image={image} />
       ))}
       </div>
     </SRLWrapper>
