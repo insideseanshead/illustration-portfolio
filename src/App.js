@@ -4,19 +4,19 @@ import Footer from "./component/Footer";
 import { useState, useEffect } from 'react'
 import Lightbox from "./component/Lightbox";
 import axios from 'axios'
-import { CloudinaryContext, Transformation, Image} from 'cloudinary-react'
 
 function App() {
-  const [images, setImages] = useState([])
+  const [images, setImages] = useState([]);
 
   useEffect(() => {
       const fetchImages = async () => {
-          const result = await axios.get(
+          const result = await axios(
               `//res.cloudinary.com/seanmorgandesigns/image/list/illustration.json`
           );
 
           console.log(result.data)
-          setImages(result.data);
+          setImages(result.data.stringify);
+          console.log(images)
       };
 
       fetchImages()
