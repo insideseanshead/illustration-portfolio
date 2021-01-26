@@ -37,6 +37,10 @@ code {
   font-weight: 200;
 }
 
+#logo{
+  display: none;
+}
+
 #sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -74,6 +78,7 @@ code {
   height: 40vh;
   padding-right: .5rem;
   transition: transform .2s;
+  cursor: pointer;
 }
 
 .content:hover {
@@ -85,3 +90,17 @@ footer {
   background: black;
 }
 
+@media screen and (max-width: 1000px) {
+  #hero{
+    display: none;
+  }
+
+  #logo{
+    display: flex;
+  }
+
+  .content{
+    width: 100%;
+    height:auto;
+  }
+}

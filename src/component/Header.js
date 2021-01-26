@@ -4,7 +4,7 @@ import Nav from "./Nav"
 const Header = () => {
   return (
     <>
-      <section className="hero is-success is-fullheight-with-navbar">
+      <section id="hero" className="hero is-success is-fullheight-with-navbar">
         <div className="hero-body hero-img">
           <div className="container">
             <h1 className="title is-1">Sean Morgan</h1>

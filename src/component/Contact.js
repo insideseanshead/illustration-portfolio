@@ -21,7 +21,7 @@ const Contact = () => {
           <br />
           <br />
           He is the illustrator and co-creator of the web comic Doc Yeti, Yeti
-          Detective. And is best un-known for his critically ignored web comic
+          Detective. Sean is also best un-known for his critically ignored web comic
           series "Nipples on the Batsuit."
         </p>
       </div>
