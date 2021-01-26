@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import logo from '../images/logo.png'
 
 const Nav = () => {
+  // hamburger state
+  const [ isActive, setisActive ] = React.useState(false)
+
   return (
     <div id="sticky">
       <nav
@@ -19,8 +22,13 @@ const Nav = () => {
             />
           </a>
           <a
+          // click event to open/close hamburger
+            onClick={() => {
+              setisActive(!isActive)
+            }}
             role="button"
-            className="navbar-burger"
+            className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
+            // className="navbar-burger"
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
@@ -31,7 +39,8 @@ const Nav = () => {
           </a>
         </div>
 
-        <div id="navbarBasicExample" className="navbar-menu is-fixed-top">
+        <div id="navbarBasicExample" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
+        {/* <div id="navbarBasicExample" className="navbar-menu is-fixed-top"> */}
           <div className="navbar-end">
             <a className="navbar-item" href="#gallery">
               Illustrations
