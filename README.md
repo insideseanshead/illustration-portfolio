@@ -5,7 +5,7 @@
     
 This application is an image gallery specifically a Illustration portfolio for myself. Using react with cloudinary and flexbox I wanted to build a single page application that took the headache out of adding new images to my portfolio. Now I can simply add an illustration file to cloudinary and it will be added to the front of my gallery making sure my most recent art is always at the top.
 
-![Gallery Screenshot](public\illustration_screen_cap.PNG)
+![Gallery Screenshot](./public\illustration_screen_cap.PNG)
 
 ## Table of Contents
 1. [Installation](#installation)
