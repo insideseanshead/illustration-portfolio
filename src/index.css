@@ -103,4 +103,8 @@ footer {
     width: 100%;
     height:auto;
   }
+
+  .content:hover {
+    transform: none;
+  }
 }

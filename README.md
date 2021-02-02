@@ -21,7 +21,7 @@ If you would like to try using the application for yourself simply clone the rep
     
 ## Usage
 
-[Depoyed site](https://sean-morgan-illustration.herokuapp.com/)
+[Depoyed site](https://seanmorganillustration.com)
     
 Simply by adding new images to my cloudinary account with the tag illustration and an alt tag images will be added to the top of my portfolio. Flexbox will make sure the page flows propperly and each image thumbnail will never be windowed as to not show the full image. Also a light box feature has been added to the whole gallery so each image can be viewed in full size.
     
