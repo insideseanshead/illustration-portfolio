@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
     "cloudinary-react": "^1.6.8",
+    "express": "^4.17.1",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-bulma-components": "^3.4.0",
