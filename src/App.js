@@ -6,15 +6,14 @@ import Lightbox from "./component/Lightbox";
 import axios from 'axios'
 
 function App() {
+  // Create State
   const [images, setImages] = useState([]);
-
+  // Fetch Image Information from Cloudinary
   useEffect(() => {
       const fetchImages = async () => {
           const result = await axios(
               `//res.cloudinary.com/seanmorgandesigns/image/list/illustration.json`
           );
-            
-          console.log(result.data)
           setImages(result.data.resources);
           return(result)
       };
@@ -26,7 +25,6 @@ function App() {
     <div className="App">
       <Header />
       <div className="page_content">
-        {/* <Gallery images={images}/> */}
         <Lightbox images={images}/>
         <Contact />
       </div>
