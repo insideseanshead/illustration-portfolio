@@ -6,8 +6,9 @@ import Lightbox from "./component/Lightbox";
 import axios from 'axios'
 
 function App() {
+  // Create State
   const [images, setImages] = useState([]);
-
+  // Fetch Image Information from Cloudinary
   useEffect(() => {
       const fetchImages = async () => {
           const result = await axios(
