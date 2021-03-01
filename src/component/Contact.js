@@ -31,7 +31,6 @@ const Contact = () => {
             <li className="subtitle is-5">(415) 378-1824</li>
             <li className="subtitle is-5">seanmorgandesigns@gmail.com</li>
           </ul>
-          {/* <h3>Form goes here</h3> */}
         </form>
       </div>
     </div>

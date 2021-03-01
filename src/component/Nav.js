@@ -40,7 +40,7 @@ const Nav = () => {
         </div>
 
         <div id="navbarBasicExample" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
-        {/* <div id="navbarBasicExample" className="navbar-menu is-fixed-top"> */}
+        
           <div className="navbar-end">
             <a className="navbar-item" href="#gallery">
               Illustrations
