@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import logo from '../images/logo.png'
 
 const Nav = () => {
@@ -21,7 +21,7 @@ const Nav = () => {
               height="28"
             />
           </a>
-          <a
+          <a 
           // click event to open/close hamburger
             onClick={() => {
               setisActive(!isActive)

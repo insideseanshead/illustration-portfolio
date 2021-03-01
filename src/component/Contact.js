@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact columns" id="contact">
       <div className="column is-3">
-        <img className="portrait" src={profile} />
+        <img className="portrait" src={profile} alt="Chimp in a Space Suit" />
       </div>
       <div className="info column is-5">
         <h2 className="title is-4">Sean Morgan</h2>
@@ -31,7 +31,7 @@ const Contact = () => {
             <li className="subtitle is-5">(415) 378-1824</li>
             <li className="subtitle is-5">seanmorgandesigns@gmail.com</li>
           </ul>
-          {/* <h3>Form goes here</h3> */}
+          
         </form>
       </div>
     </div>

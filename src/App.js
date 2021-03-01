@@ -13,8 +13,6 @@ function App() {
           const result = await axios(
               `//res.cloudinary.com/seanmorgandesigns/image/list/illustration.json`
           );
-            
-          console.log(result.data)
           setImages(result.data.resources);
           return(result)
       };
@@ -26,7 +24,6 @@ function App() {
     <div className="App">
       <Header />
       <div className="page_content">
-        {/* <Gallery images={images}/> */}
         <Lightbox images={images}/>
         <Contact />
       </div>
